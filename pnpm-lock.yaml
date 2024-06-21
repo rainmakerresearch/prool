@@ -29,6 +29,9 @@ importers:
       '@types/ws':
         specifier: ^8.5.10
         version: 8.5.10
+      '@ungap/with-resolvers':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@vitest/coverage-v8':
         specifier: ^1.6.0
         version: 1.6.0(vitest@1.6.0)
@@ -59,10 +62,6 @@ importers:
       http-proxy:
         specifier: ^1.18.1
         version: 1.18.1
-    devDependencies:
-      '@ungap/with-resolvers':
-        specifier: ^0.1.0
-        version: 0.1.0
 
 packages:
 
