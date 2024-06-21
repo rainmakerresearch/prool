@@ -29,9 +29,6 @@ importers:
       '@types/ws':
         specifier: ^8.5.10
         version: 8.5.10
-      '@ungap/with-resolvers':
-        specifier: ^0.1.0
-        version: 0.1.0
       '@vitest/coverage-v8':
         specifier: ^1.6.0
         version: 1.6.0(vitest@1.6.0)
@@ -50,6 +47,9 @@ importers:
 
   src:
     dependencies:
+      '@ungap/with-resolvers':
+        specifier: ^0.1.0
+        version: 0.1.0
       eventemitter3:
         specifier: ^5.0.1
         version: 5.0.1
@@ -1548,7 +1548,7 @@ packages:
 
   /@ungap/with-resolvers@0.1.0:
     resolution: {integrity: sha512-g7f0IkJdPW2xhY7H4iE72DAsIyfuwEFc6JWc2tYFwKDMWWAF699vGjrM348cwQuOXgHpe1gWFe+Eiyjx/ewvvw==}
-    dev: true
+    dev: false
 
   /@vitest/coverage-v8@1.6.0(vitest@1.6.0):
     resolution: {integrity: sha512-KvapcbMY/8GYIG0rlwwOKCVNRc0OL20rrhFkg/CHNzncV03TE2XWvO5w9uZYoxNiMEBacAJt3unSOiZ7svePew==}
