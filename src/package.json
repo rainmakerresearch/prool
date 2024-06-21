@@ -1,7 +1,7 @@
 {
   "name": "rainmaker-prool",
   "description": "HTTP testing instances for Ethereum",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "type": "module",
   "module": "_lib/exports/index.mjs",
   "types": "_lib/exports/index.d.ts",
