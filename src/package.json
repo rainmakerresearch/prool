@@ -1,7 +1,7 @@
 {
   "name": "rainmaker-prool",
   "description": "HTTP testing instances for Ethereum",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "type": "module",
   "module": "_lib/exports/index.mjs",
   "types": "_lib/exports/index.d.ts",
@@ -51,8 +51,5 @@
       "url": "https://github.com/sponsors/wevm"
     }
   ],
-  "keywords": [],
-  "devDependencies": {
-    "@ungap/with-resolvers": "^0.1.0"
-  }
+  "keywords": []
 }
