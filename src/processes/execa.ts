@@ -1,3 +1,5 @@
+import "@ungap/with-resolvers";
+
 import { type ResultPromise, execa as exec } from 'execa'
 import type { InstanceStartOptions_internal } from '../instance.js'
 import { stripColors } from '../utils.js'

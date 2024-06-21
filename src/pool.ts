@@ -1,3 +1,5 @@
+import "@ungap/with-resolvers";
+
 import getPort from 'get-port'
 
 import type { Instance } from './instance.js'

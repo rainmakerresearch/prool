@@ -59,6 +59,10 @@ importers:
       http-proxy:
         specifier: ^1.18.1
         version: 1.18.1
+    devDependencies:
+      '@ungap/with-resolvers':
+        specifier: ^0.1.0
+        version: 0.1.0
 
 packages:
 
@@ -1541,6 +1545,10 @@ packages:
     resolution: {integrity: sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A==}
     dependencies:
       '@types/node': 20.14.7
+    dev: true
+
+  /@ungap/with-resolvers@0.1.0:
+    resolution: {integrity: sha512-g7f0IkJdPW2xhY7H4iE72DAsIyfuwEFc6JWc2tYFwKDMWWAF699vGjrM348cwQuOXgHpe1gWFe+Eiyjx/ewvvw==}
     dev: true
 
   /@vitest/coverage-v8@1.6.0(vitest@1.6.0):

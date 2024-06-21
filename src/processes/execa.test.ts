@@ -1,3 +1,5 @@
+import "@ungap/with-resolvers";
+
 import { EventEmitter } from 'eventemitter3'
 import { afterEach, expect, test } from 'vitest'
 import { type ExecaProcess, execa } from './execa.js'

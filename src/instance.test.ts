@@ -1,3 +1,4 @@
+import "@ungap/with-resolvers";
 import { expect, test } from 'vitest'
 import { defineInstance } from './instance.js'
 

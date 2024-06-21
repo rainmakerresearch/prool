@@ -1,3 +1,5 @@
+import "@ungap/with-resolvers";
+
 import { EventEmitter } from 'eventemitter3'
 
 type EventTypes = {

@@ -1,7 +1,7 @@
 {
-  "name": "prool",
+  "name": "rainmaker-prool",
   "description": "HTTP testing instances for Ethereum",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
   "module": "_lib/exports/index.mjs",
   "types": "_lib/exports/index.d.ts",
@@ -41,12 +41,18 @@
   "license": "MIT",
   "homepage": "https://wevm.dev",
   "repository": "wevm/prool",
-  "authors": ["awkweb", "jxom"],
+  "authors": [
+    "awkweb",
+    "jxom"
+  ],
   "funding": [
     {
       "type": "github",
       "url": "https://github.com/sponsors/wevm"
     }
   ],
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "@ungap/with-resolvers": "^0.1.0"
+  }
 }
